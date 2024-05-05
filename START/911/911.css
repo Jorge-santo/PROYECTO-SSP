@@ -1,0 +1,58 @@
+.principal-1 {margin-top: 60px;  }
+
+.container-productos { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px; }
+
+.producto-1, .producto-2, .producto-3, .producto-4, .producto-5 {
+    background-color: white; 
+    width: 50%;
+    max-height: 450px;
+    margin: 1px;
+    padding: 7px;
+    border-radius: 10px;
+    box-shadow: 1px 1px solid greenyellow;
+    max-width: 290px;}
+
+ .targeta-1, .targeta-2, .targeta-3, .targeta-4, .targeta-5 { width: 100%; max-height: 250px;}
+
+ .titulo-1, .titulo-2, .titulo-3, .titulo-4, .titulo-5, 
+ .texto-1, .texto-2, .texto-3, .texto-4, .texto-5
+ 
+  { margin: 10px; 
+    padding: 5px; 
+    color: black; 
+    font-size: 10px;}
+
+
+    .titulo-1:hover, .titulo-2:hover, .titulo-3:hover, .titulo-4:hover, .titulo-5:hover
+    { color:  white;
+        font-size:20px;}
+        
+        .texto-1:hover, .texto-2:hover, .texto-3:hover, .texto-4:hover, .texto-5:hover
+        { color: yellow;
+          font-size: medium;}
+
+          
+
+.producto-1:hover {background-color:  gray;}  
+.producto-2:hover {background-color:  gray;} 
+.producto-3:hover {background-color:  gray;} 
+.producto-4:hover {background-color:  gray;} 
+.producto-5:hover {background-color:  gray;} 
+
+
+
+
+@media screen and (max-width: 500px  )
+{ .producto { width: 50%; 
+              max-width: 180px;
+              padding: 3px; } }
+    
+@media screen and (max-width: 390px  )
+{.producto { width: 50%; 
+                max-width: 150px;
+                padding: 3px;  }  }
+    

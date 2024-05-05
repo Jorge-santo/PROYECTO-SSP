@@ -1,0 +1,67 @@
+.titulo-principal {margin-top: 35px; }
+.container-productos { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px; }
+
+.producto-1, .producto-2, .producto-3, .producto-4 {
+    background-color: white; 
+    width: 50%;
+    max-height: 450px;
+    margin: 1px;
+    padding: 7px;
+    border-radius: 10px;
+    box-shadow: 1px 1px solid greenyellow;
+    max-width: 290px;}
+
+ .targeta-1, .targeta-2, .targeta-3, .targeta-4 { width: 100%; max-height: 250px;}
+
+ .titulo-1, .titulo-2, .titulo-3, .titulo-4
+ 
+  { margin: 10px; 
+    padding: 5px; 
+    color: black; 
+    font-size: 10px;}
+
+
+    .titulo-1:hover, .titulo-2:hover, .titulo-3:hover, .titulo-4:hover 
+    { color:  white;
+        font-size:20px;}
+    
+
+ .boton-1, .boton-2, .boton-3, .boton-4
+ {  width: 100%;
+    margin-top: 5px;
+    background-color: orange;
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    transition: .5s;}
+
+
+
+
+.producto-1:hover {background-color:  gray;}  
+.producto-2:hover {background-color:  gray;} 
+.producto-3:hover {background-color:  gray;} 
+.producto-4:hover {background-color:  gray;} 
+
+.boton-1:hover { color: white; background-color: greenyellow;}
+.boton-2:hover { color: white; background-color: greenyellow;}
+.boton-3:hover { color: white; background-color: greenyellow;}
+.boton-4:hover { color: white; background-color: greenyellow;}
+
+
+
+@media screen and (max-width: 500px  )
+{ .producto { width: 50%; 
+              max-width: 180px;
+              padding: 3px; } }
+    
+@media screen and (max-width: 390px  )
+{.producto { width: 50%; 
+                max-width: 150px;
+                padding: 3px;  }  }
+    

@@ -1,0 +1,147 @@
+
+body{
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #fff;
+
+    background-color: rgba(0, 0, 0, 0.7); 
+}
+
+
+form{
+    margin-top: 30px;
+}
+
+.login{
+    border-radius: 30px;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 600px;
+    width: 450px;
+    padding: 30px;
+
+    background: linear-gradient(rgba(0,0,0, .3), rgba(243,17,224, .3));
+    background-size: cover;
+
+    box-shadow: 0px 30px 60px -5px rgb(105, 105, 193) ;
+}
+
+h2{
+    border-bottom: 2px solid white;
+    
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 200;
+    
+    text-align: center;
+}
+
+h3 {text-align: center;}
+
+.txt-email, .txt-pwd {
+    width: 90%;
+    border: 2px solid rgba(255, 255, 255, 0);
+    border-radius: 20px;
+    
+    background-color: rgb(0,0,0 , 0.3);
+    border: none;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+
+    transition: all 0.5s;
+    color: white;
+    font-size: 15px;
+}
+
+.txt-email:focus{
+    outline: 0px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+}
+
+.txt-pwd:focus{
+    outline: 0px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+}
+
+label{
+    margin-top: 20px;
+    display: block;
+}
+
+.btn-ingresar{
+    font-size: 15px;
+    letter-spacing: 3px;
+    background-color: rgb(40, 40, 109);
+    color:white ;
+    width: 100%;
+    height: 35px;
+    border-radius: 30px;
+    border: none;
+    text-transform: uppercase;
+    transition: all 0.5s;
+}
+
+.btn-ingresar:hover{
+background: rgb(77,77,208);
+cursor: pointer;
+}
+
+hr{
+margin-top: 50px;
+border: 1px solid white;
+}
+
+a{ color: white;
+    text-decoration: none;
+    text-align: left;
+    line-height: 30px;   
+}
+
+.sesion{
+    margin-bottom: 30px;
+    display: inline-block;  }
+
+.grid-container {display: grid; 
+    grid-template-columns: 60% 40%;
+    grid-auto-rows: minmax(100px, auto );
+    column-gap: 30px;  }
+
+nav { grid-column: 1;
+        padding: 30px;
+        border-right: 2px solid gray;  }
+
+.carrusel { grid-column: 2;
+    height: 350px;
+    width: 500px;
+    margin-top:50px ;
+    margin: 15px;
+    padding: 30px;  }
+
+video {  grid-column: 2;
+    height: 350px;
+    width: 480px;
+    margin-top:50px ;
+    margin: 15px;
+    padding: 30px;  }
+
+.boton-isquierdo { grid-column: 2;
+    height: 350px;
+    width: 100px;
+    margin-left: 55px;
+margin-top: 15px;  } 
+
+.boton-derecho { grid-column: 2;
+    height: 350px;
+    width: 100px;
+    margin-right: 65px;
+margin-top: 15px;  }
+
+.final { height: 350 px;}
